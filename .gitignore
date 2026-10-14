@@ -1,0 +1,9 @@
+dist/
+site.tar.gz
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+node_modules/
+.sites-runtime/
