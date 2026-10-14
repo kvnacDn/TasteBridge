@@ -1,0 +1,508 @@
+{
+  "verifiedAt": "2026-10-06T15:56:22.835Z",
+  "baseUrl": "https://hackathon.api.qloo.com",
+  "synthetic": false,
+  "calls": [
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Arrival",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 9329,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Paddington 2",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 367,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Blade Runner 2049",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 8984,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Amélie",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 8395,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Spirited Away",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 232,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "The Grand Budapest Hotel",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 228,
+      "entityCount": 3,
+      "responseKeys": [
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 2059,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 2035,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 1824,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 1755,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92",
+        "filter.results.entities": "68cd7c41-78be-4765-b184-1f1988036c89,a67bcfb9-3466-41b0-b1f7-64883dbca3d1,649672ad-38a4-42c7-baac-bbd2d5beefa0,34eeac82-27ff-4ebd-ba5d-5c6dad004411,97c52254-e749-43de-9745-5db1e38c4328,8cb3c676-d3c0-4a3c-aad6-7e220b1e517a,c2b5c855-2c57-45e4-b573-2bc939ca7ffa,73e550ef-654a-41ea-863c-e958002cf7ba,d3072382-05fe-4923-9f91-4629733463f0,0ff1fe84-1e04-44c1-852b-d9217b96a4aa,e146ca3a-10fd-4c7f-acfa-ad4e9955f08e,3f119d9b-d7f2-4643-8c53-81997961a6dc,b47e7d07-c346-4b0c-87fb-f36ce4551597,878b26c8-9c94-4a6b-b65a-5aad2cc67d97,5711127e-4a9a-4440-8234-8e536e8a1564,82fb8a30-d1a2-433b-89c4-7c1d08ea1749,948f694f-63fe-44a6-97a2-33e2736a79af,55b931a0-4e15-4fd4-bd66-f5e04ad99e27,13176032-0332-4a37-abab-29addf5cf40d,b5804521-2ef8-48ae-af21-7788fc9a1f56,d6e8d940-2fba-424a-abfa-e1341f22e3b4,e3ce6053-ce42-4170-aea8-ec0b3cb77930,20acbf00-3005-4081-bb4b-54209d365b8a,57513d84-dae7-461d-929f-0b0ffae121db,a74a74bb-ce73-4a76-807b-8bd1714bc463,df66cf70-cf05-4aa8-9ab8-a7554c308738,29e2c0af-cf33-46f9-ad36-2478cafd9a3c,d859b7bb-f930-4db6-b986-ed80ad1e49a4,6904153b-5a4e-4ad7-9f6d-25c060946eca,e733f23e-e077-4b2c-a30f-7fa112fdfee5,108def19-294e-4d46-b513-945dce18c8f6,40844f77-b7cf-43c5-a79f-9210e160d037,864b80db-d111-4148-9b68-68932602470b,053a809a-da41-42f2-aad8-ff8b8cb6cefd,65745a20-2fe5-44ec-8349-bda0c8522ceb,d8f970e7-664d-4a16-a35d-02f847567c8b,414043b1-8210-4997-8110-9e8b40d06814,9a8c00de-70ba-4a14-97d6-f725bbfb40ed,3202cc16-3724-4b1b-8419-2dbb6acce750,4be414cf-375f-4566-aa66-9ac6150a6b7f",
+        "take": "40"
+      },
+      "status": 200,
+      "elapsedMs": 685,
+      "entityCount": 40,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc",
+        "filter.results.entities": "68cd7c41-78be-4765-b184-1f1988036c89,a67bcfb9-3466-41b0-b1f7-64883dbca3d1,649672ad-38a4-42c7-baac-bbd2d5beefa0,34eeac82-27ff-4ebd-ba5d-5c6dad004411,97c52254-e749-43de-9745-5db1e38c4328,8cb3c676-d3c0-4a3c-aad6-7e220b1e517a,c2b5c855-2c57-45e4-b573-2bc939ca7ffa,73e550ef-654a-41ea-863c-e958002cf7ba,d3072382-05fe-4923-9f91-4629733463f0,0ff1fe84-1e04-44c1-852b-d9217b96a4aa,e146ca3a-10fd-4c7f-acfa-ad4e9955f08e,3f119d9b-d7f2-4643-8c53-81997961a6dc,b47e7d07-c346-4b0c-87fb-f36ce4551597,878b26c8-9c94-4a6b-b65a-5aad2cc67d97,5711127e-4a9a-4440-8234-8e536e8a1564,82fb8a30-d1a2-433b-89c4-7c1d08ea1749,948f694f-63fe-44a6-97a2-33e2736a79af,55b931a0-4e15-4fd4-bd66-f5e04ad99e27,13176032-0332-4a37-abab-29addf5cf40d,b5804521-2ef8-48ae-af21-7788fc9a1f56,d6e8d940-2fba-424a-abfa-e1341f22e3b4,e3ce6053-ce42-4170-aea8-ec0b3cb77930,20acbf00-3005-4081-bb4b-54209d365b8a,57513d84-dae7-461d-929f-0b0ffae121db,a74a74bb-ce73-4a76-807b-8bd1714bc463,df66cf70-cf05-4aa8-9ab8-a7554c308738,29e2c0af-cf33-46f9-ad36-2478cafd9a3c,d859b7bb-f930-4db6-b986-ed80ad1e49a4,6904153b-5a4e-4ad7-9f6d-25c060946eca,e733f23e-e077-4b2c-a30f-7fa112fdfee5,108def19-294e-4d46-b513-945dce18c8f6,40844f77-b7cf-43c5-a79f-9210e160d037,864b80db-d111-4148-9b68-68932602470b,053a809a-da41-42f2-aad8-ff8b8cb6cefd,65745a20-2fe5-44ec-8349-bda0c8522ceb,d8f970e7-664d-4a16-a35d-02f847567c8b,414043b1-8210-4997-8110-9e8b40d06814,9a8c00de-70ba-4a14-97d6-f725bbfb40ed,3202cc16-3724-4b1b-8419-2dbb6acce750,4be414cf-375f-4566-aa66-9ac6150a6b7f",
+        "take": "40"
+      },
+      "status": 200,
+      "elapsedMs": 498,
+      "entityCount": 40,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "filter.results.entities": "68cd7c41-78be-4765-b184-1f1988036c89,a67bcfb9-3466-41b0-b1f7-64883dbca3d1,649672ad-38a4-42c7-baac-bbd2d5beefa0,34eeac82-27ff-4ebd-ba5d-5c6dad004411,97c52254-e749-43de-9745-5db1e38c4328,8cb3c676-d3c0-4a3c-aad6-7e220b1e517a,c2b5c855-2c57-45e4-b573-2bc939ca7ffa,73e550ef-654a-41ea-863c-e958002cf7ba,d3072382-05fe-4923-9f91-4629733463f0,0ff1fe84-1e04-44c1-852b-d9217b96a4aa,e146ca3a-10fd-4c7f-acfa-ad4e9955f08e,3f119d9b-d7f2-4643-8c53-81997961a6dc,b47e7d07-c346-4b0c-87fb-f36ce4551597,878b26c8-9c94-4a6b-b65a-5aad2cc67d97,5711127e-4a9a-4440-8234-8e536e8a1564,82fb8a30-d1a2-433b-89c4-7c1d08ea1749,948f694f-63fe-44a6-97a2-33e2736a79af,55b931a0-4e15-4fd4-bd66-f5e04ad99e27,13176032-0332-4a37-abab-29addf5cf40d,b5804521-2ef8-48ae-af21-7788fc9a1f56,d6e8d940-2fba-424a-abfa-e1341f22e3b4,e3ce6053-ce42-4170-aea8-ec0b3cb77930,20acbf00-3005-4081-bb4b-54209d365b8a,57513d84-dae7-461d-929f-0b0ffae121db,a74a74bb-ce73-4a76-807b-8bd1714bc463,df66cf70-cf05-4aa8-9ab8-a7554c308738,29e2c0af-cf33-46f9-ad36-2478cafd9a3c,d859b7bb-f930-4db6-b986-ed80ad1e49a4,6904153b-5a4e-4ad7-9f6d-25c060946eca,e733f23e-e077-4b2c-a30f-7fa112fdfee5,108def19-294e-4d46-b513-945dce18c8f6,40844f77-b7cf-43c5-a79f-9210e160d037,864b80db-d111-4148-9b68-68932602470b,053a809a-da41-42f2-aad8-ff8b8cb6cefd,65745a20-2fe5-44ec-8349-bda0c8522ceb,d8f970e7-664d-4a16-a35d-02f847567c8b,414043b1-8210-4997-8110-9e8b40d06814,9a8c00de-70ba-4a14-97d6-f725bbfb40ed,3202cc16-3724-4b1b-8419-2dbb6acce750,4be414cf-375f-4566-aa66-9ac6150a6b7f",
+        "take": "40"
+      },
+      "status": 200,
+      "elapsedMs": 517,
+      "entityCount": 40,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f,649672ad-38a4-42c7-baac-bbd2d5beefa0",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 1700,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f",
+        "filter.exclude.entities": "c7ec4ca9-1ccc-4991-b738-55f075441b3f,3a02361c-987b-4f7e-9aad-071c3853ad92,b7a0731f-ec92-496a-9c40-47d9770489b6,fd27ac52-4880-404e-becf-e99dedeae2fc,9b33a620-68ca-49b3-bfcf-f09ccf8ad595,df788007-b5ea-4f29-872b-96bcb8eec42f,649672ad-38a4-42c7-baac-bbd2d5beefa0",
+        "take": "30"
+      },
+      "status": 200,
+      "elapsedMs": 1664,
+      "entityCount": 30,
+      "responseKeys": [
+        "success",
+        "results"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Three-member balanced plan",
+      "result": {
+        "mode": "live",
+        "liveVerified": true,
+        "fairness": 0.65,
+        "members": [
+          "Member 1",
+          "Member 2",
+          "Member 3"
+        ],
+        "resolved": [
+          {
+            "member": "Member 1",
+            "titles": [
+              "Arrival",
+              "Blade Runner 2049"
+            ],
+            "entityIds": [
+              "c7ec4ca9-1ccc-4991-b738-55f075441b3f",
+              "3a02361c-987b-4f7e-9aad-071c3853ad92"
+            ],
+            "source": "Qloo entity search"
+          },
+          {
+            "member": "Member 2",
+            "titles": [
+              "Amélie",
+              "Paddington 2"
+            ],
+            "entityIds": [
+              "b7a0731f-ec92-496a-9c40-47d9770489b6",
+              "fd27ac52-4880-404e-becf-e99dedeae2fc"
+            ],
+            "source": "Qloo entity search"
+          },
+          {
+            "member": "Member 3",
+            "titles": [
+              "Spirited Away",
+              "The Grand Budapest Hotel"
+            ],
+            "entityIds": [
+              "9b33a620-68ca-49b3-bfcf-f09ccf8ad595",
+              "df788007-b5ea-4f29-872b-96bcb8eec42f"
+            ],
+            "source": "Qloo entity search"
+          }
+        ],
+        "options": [
+          {
+            "id": "649672ad-38a4-42c7-baac-bbd2d5beefa0",
+            "name": "Coco",
+            "year": 2017,
+            "support": [
+              0.575,
+              1,
+              0.55
+            ],
+            "average": 0.7083333333333334,
+            "floor": 0.55,
+            "score": 0.6054166666666667,
+            "coverage": 3,
+            "jointRank": 1
+          },
+          {
+            "id": "68cd7c41-78be-4765-b184-1f1988036c89",
+            "name": "Your Name.",
+            "year": 2016,
+            "support": [
+              0.525,
+              0.8,
+              0.675
+            ],
+            "average": 0.6666666666666666,
+            "floor": 0.525,
+            "score": 0.5745833333333333,
+            "coverage": 3,
+            "jointRank": 0
+          },
+          {
+            "id": "3f119d9b-d7f2-4643-8c53-81997961a6dc",
+            "name": "Inside Out",
+            "year": 2015,
+            "support": [
+              0.5,
+              0.75,
+              0.775
+            ],
+            "average": 0.6749999999999999,
+            "floor": 0.5,
+            "score": 0.56125,
+            "coverage": 3,
+            "jointRank": 3
+          },
+          {
+            "id": "c2b5c855-2c57-45e4-b573-2bc939ca7ffa",
+            "name": "Princess Mononoke",
+            "year": 1997,
+            "support": [
+              0.42500000000000004,
+              0.475,
+              0.975
+            ],
+            "average": 0.625,
+            "floor": 0.42500000000000004,
+            "score": 0.49500000000000005,
+            "coverage": 3,
+            "jointRank": 7
+          },
+          {
+            "id": "73e550ef-654a-41ea-863c-e958002cf7ba",
+            "name": "La La Land",
+            "year": 2016,
+            "support": [
+              0.6,
+              0.65,
+              0.44999999999999996
+            ],
+            "average": 0.5666666666666667,
+            "floor": 0.44999999999999996,
+            "score": 0.4908333333333333,
+            "coverage": 3,
+            "jointRank": 2
+          }
+        ],
+        "baseline": {
+          "id": "34eeac82-27ff-4ebd-ba5d-5c6dad004411",
+          "name": "Howl's Moving Castle",
+          "year": 2004,
+          "support": [
+            0.30000000000000004,
+            0.9,
+            1
+          ],
+          "average": 0.7333333333333334,
+          "floor": 0.30000000000000004,
+          "score": 0.7333333333333334,
+          "coverage": 3,
+          "jointRank": 4
+        },
+        "shortlistSizes": [
+          40,
+          40,
+          40
+        ],
+        "trace": [
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 9330,
+            "verifiedAt": "2026-10-06T15:57:01.546Z"
+          },
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 368,
+            "verifiedAt": "2026-10-06T15:57:01.914Z"
+          },
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 9728,
+            "verifiedAt": "2026-10-06T15:57:01.951Z"
+          },
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 9888,
+            "verifiedAt": "2026-10-06T15:57:02.112Z"
+          },
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 616,
+            "verifiedAt": "2026-10-06T15:57:02.530Z"
+          },
+          {
+            "step": "Resolve movie",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 3,
+            "elapsedMs": 1321,
+            "verifiedAt": "2026-10-06T15:57:03.273Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 30,
+            "elapsedMs": 2593,
+            "verifiedAt": "2026-10-06T15:57:05.867Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 30,
+            "elapsedMs": 3314,
+            "verifiedAt": "2026-10-06T15:57:06.588Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 30,
+            "elapsedMs": 3852,
+            "verifiedAt": "2026-10-06T15:57:07.126Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 30,
+            "elapsedMs": 1939,
+            "verifiedAt": "2026-10-06T15:57:07.806Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 40,
+            "elapsedMs": 695,
+            "verifiedAt": "2026-10-06T15:57:08.502Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 40,
+            "elapsedMs": 1255,
+            "verifiedAt": "2026-10-06T15:57:09.062Z"
+          },
+          {
+            "step": "Retrieve taste shortlist",
+            "source": "Qloo live",
+            "status": 200,
+            "entityCount": 40,
+            "elapsedMs": 2024,
+            "verifiedAt": "2026-10-06T15:57:09.831Z"
+          },
+          {
+            "step": "Evaluate the same candidate pool for every member",
+            "source": "Qloo filtered Insights",
+            "entityCount": 40
+          },
+          {
+            "step": "Compare each member’s evidence",
+            "source": "Rank-based support"
+          },
+          {
+            "step": "Balance the group and return options",
+            "source": "Deterministic decision tool"
+          }
+        ],
+        "warnings": [],
+        "method": "Support = 1 − position / returned list length, measured within the same bounded candidate pool for every member. Missing evidence is conservatively treated as zero for ranking, not as dislike. Balance weights the lowest support against average support. These relative rank indices are not probabilities, Qloo affinity scores or proof that everyone will enjoy a film. An exclusion starts a new Qloo query; indices across different candidate pools are not directly comparable."
+      }
+    }
+  ],
+  "passed": false,
+  "failure": "Live workflow failed; check sanitized request statuses and application error handling."
+}
