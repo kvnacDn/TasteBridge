@@ -1,0 +1,205 @@
+{
+  "verifiedAt": "2026-10-06T15:33:48.904Z",
+  "baseUrl": "https://hackathon.api.qloo.com",
+  "calls": [
+    {
+      "endpoint": "/search",
+      "parameters": {
+        "query": "Arrival",
+        "types": "urn:entity:movie",
+        "take": "3"
+      },
+      "status": 200,
+      "elapsedMs": 13176,
+      "topLevelKeys": [
+        "results"
+      ],
+      "resultsKeys": null,
+      "entityCount": 3,
+      "examples": [
+        {
+          "id": "C7EC4CA9-1CCC-4991-B738-55F075441B3F",
+          "name": "Arrival",
+          "types": [
+            "urn:entity:movie"
+          ],
+          "propertiesKeys": [
+            "akas",
+            "content_rating",
+            "description",
+            "external",
+            "filming_location",
+            "image",
+            "is_special",
+            "production_company",
+            "release_country",
+            "release_date",
+            "release_year",
+            "short_descriptions",
+            "website"
+          ]
+        },
+        {
+          "id": "D712CCE4-BA8F-4863-9529-C10E65F73DC3",
+          "name": "The Arrival",
+          "types": [
+            "urn:entity:movie"
+          ],
+          "propertiesKeys": [
+            "akas",
+            "content_rating",
+            "description",
+            "external",
+            "filming_location",
+            "image",
+            "is_special",
+            "production_company",
+            "release_country",
+            "release_date",
+            "release_year",
+            "short_descriptions",
+            "website"
+          ]
+        },
+        {
+          "id": "5399B84E-E8F7-4BF4-B0B0-CE534B838A9E",
+          "name": "The Arrival",
+          "types": [
+            "urn:entity:movie"
+          ],
+          "propertiesKeys": [
+            "akas",
+            "description",
+            "external",
+            "filming_location",
+            "image",
+            "is_special",
+            "production_company",
+            "release_country",
+            "release_date",
+            "release_year",
+            "short_descriptions",
+            "website"
+          ]
+        }
+      ]
+    },
+    {
+      "endpoint": "/v2/insights",
+      "parameters": {
+        "filter.type": "urn:entity:movie",
+        "signal.interests.entities": "C7EC4CA9-1CCC-4991-B738-55F075441B3F",
+        "take": "5"
+      },
+      "status": 200,
+      "elapsedMs": 1628,
+      "success": true,
+      "topLevelKeys": [
+        "success",
+        "results"
+      ],
+      "resultsKeys": [
+        "entities"
+      ],
+      "entityCount": 5,
+      "examples": [
+        {
+          "id": "A67BCFB9-3466-41B0-B1F7-64883DBCA3D1",
+          "name": "Passengers",
+          "propertiesKeys": [
+            "akas",
+            "image",
+            "genres",
+            "duration",
+            "keywords",
+            "websites",
+            "title_type",
+            "description",
+            "finale_year",
+            "wikidata_id",
+            "plot_summary",
+            "release_date",
+            "release_year",
+            "collaborators",
+            "content_rating",
+            "release_country",
+            "filming_location",
+            "audience_identity",
+            "genre_description",
+            "style_description",
+            "short_descriptions",
+            "production_companies",
+            "situational_contexts",
+            "influenced_other_media",
+            "plot_themes_description",
+            "emotional_tone_description"
+          ]
+        },
+        {
+          "id": "97C52254-E749-43DE-9745-5DB1E38C4328",
+          "name": "Alien: Covenant",
+          "propertiesKeys": [
+            "akas",
+            "image",
+            "genres",
+            "duration",
+            "keywords",
+            "websites",
+            "title_type",
+            "description",
+            "finale_year",
+            "wikidata_id",
+            "plot_summary",
+            "release_date",
+            "release_year",
+            "collaborators",
+            "content_rating",
+            "release_country",
+            "filming_location",
+            "audience_identity",
+            "genre_description",
+            "style_description",
+            "short_descriptions",
+            "production_companies",
+            "situational_contexts",
+            "influenced_other_media",
+            "plot_themes_description",
+            "emotional_tone_description"
+          ]
+        },
+        {
+          "id": "3A02361C-987B-4F7E-9AAD-071C3853AD92",
+          "name": "Blade Runner 2049",
+          "propertiesKeys": [
+            "akas",
+            "image",
+            "genres",
+            "duration",
+            "keywords",
+            "websites",
+            "title_type",
+            "description",
+            "finale_year",
+            "wikidata_id",
+            "plot_summary",
+            "release_date",
+            "release_year",
+            "collaborators",
+            "content_rating",
+            "release_country",
+            "filming_location",
+            "audience_identity",
+            "genre_description",
+            "style_description",
+            "short_descriptions",
+            "production_companies",
+            "situational_contexts",
+            "influenced_other_media",
+            "plot_themes_description",
+            "emotional_tone_description"
+          ]
+        }
+      ]
+    }
+  ]
+}
