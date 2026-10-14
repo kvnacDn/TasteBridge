@@ -1,0 +1,208 @@
+{
+  "verifiedAt": "2026-10-11T03:12:20.536Z",
+  "checks": [
+    {
+      "endpoint": "/api/status",
+      "status": 200
+    },
+    {
+      "endpoint": "/api/plan",
+      "status": 200
+    }
+  ],
+  "passed": true,
+  "result": {
+    "mode": "live",
+    "liveVerified": true,
+    "fairness": 0.65,
+    "members": [
+      "Member 1",
+      "Member 2"
+    ],
+    "resolved": [
+      {
+        "member": "Member 1",
+        "titles": [
+          "Arrival"
+        ],
+        "entityIds": [
+          "c7ec4ca9-1ccc-4991-b738-55f075441b3f"
+        ],
+        "source": "Qloo entity search"
+      },
+      {
+        "member": "Member 2",
+        "titles": [
+          "Paddington 2"
+        ],
+        "entityIds": [
+          "fd27ac52-4880-404e-becf-e99dedeae2fc"
+        ],
+        "source": "Qloo entity search"
+      }
+    ],
+    "options": [
+      {
+        "id": "9c0f7c3b-d081-4440-876e-0f742d29c976",
+        "name": "Okja",
+        "year": 2017,
+        "support": [
+          0.575,
+          0.525
+        ],
+        "average": 0.55,
+        "floor": 0.525,
+        "score": 0.5337500000000001,
+        "coverage": 2,
+        "jointRank": 1
+      },
+      {
+        "id": "c2e6299d-c4ce-4bfa-8ea2-57cc266fe0f4",
+        "name": "Hunt for the Wilderpeople",
+        "year": 2016,
+        "support": [
+          0.525,
+          0.575
+        ],
+        "average": 0.55,
+        "floor": 0.525,
+        "score": 0.5337500000000001,
+        "coverage": 2,
+        "jointRank": 2
+      },
+      {
+        "id": "b47e7d07-c346-4b0c-87fb-f36ce4551597",
+        "name": "The Shape of Water",
+        "year": 2017,
+        "support": [
+          0.625,
+          0.5
+        ],
+        "average": 0.5625,
+        "floor": 0.5,
+        "score": 0.521875,
+        "coverage": 2,
+        "jointRank": 0
+      },
+      {
+        "id": "0a1c0539-692c-4cb3-bb16-785a5fed0b08",
+        "name": "The Disaster Artist",
+        "year": 2017,
+        "support": [
+          0.44999999999999996,
+          0.6
+        ],
+        "average": 0.5249999999999999,
+        "floor": 0.44999999999999996,
+        "score": 0.47624999999999995,
+        "coverage": 2,
+        "jointRank": 5
+      },
+      {
+        "id": "b4783599-f934-4159-8003-720406fc1c80",
+        "name": "Moana",
+        "year": 2016,
+        "support": [
+          0.475,
+          0.475
+        ],
+        "average": 0.475,
+        "floor": 0.475,
+        "score": 0.475,
+        "coverage": 2,
+        "jointRank": 12
+      }
+    ],
+    "baseline": {
+      "id": "3a02361c-987b-4f7e-9aad-071c3853ad92",
+      "name": "Blade Runner 2049",
+      "year": 2017,
+      "support": [
+        0.95,
+        0.32499999999999996
+      ],
+      "average": 0.6375,
+      "floor": 0.32499999999999996,
+      "score": 0.6375,
+      "coverage": 2,
+      "jointRank": 8
+    },
+    "shortlistSizes": [
+      40,
+      40
+    ],
+    "trace": [
+      {
+        "step": "Resolve movie",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 3,
+        "elapsedMs": 360,
+        "verifiedAt": "2026-10-11T03:12:30.821Z"
+      },
+      {
+        "step": "Resolve movie",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 3,
+        "elapsedMs": 1036,
+        "verifiedAt": "2026-10-11T03:12:31.497Z"
+      },
+      {
+        "step": "Retrieve taste shortlist",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 30,
+        "elapsedMs": 2143,
+        "verifiedAt": "2026-10-11T03:12:33.848Z"
+      },
+      {
+        "step": "Retrieve taste shortlist",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 30,
+        "elapsedMs": 2520,
+        "verifiedAt": "2026-10-11T03:12:34.232Z"
+      },
+      {
+        "step": "Retrieve taste shortlist",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 30,
+        "elapsedMs": 3658,
+        "verifiedAt": "2026-10-11T03:12:35.371Z"
+      },
+      {
+        "step": "Retrieve taste shortlist",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 40,
+        "elapsedMs": 352,
+        "verifiedAt": "2026-10-11T03:12:35.932Z"
+      },
+      {
+        "step": "Retrieve taste shortlist",
+        "source": "Qloo live",
+        "status": 200,
+        "entityCount": 40,
+        "elapsedMs": 966,
+        "verifiedAt": "2026-10-11T03:12:36.552Z"
+      },
+      {
+        "step": "Evaluate the same candidate pool for every member",
+        "source": "Qloo filtered Insights",
+        "entityCount": 40
+      },
+      {
+        "step": "Compare each member’s evidence",
+        "source": "Rank-based support"
+      },
+      {
+        "step": "Balance the group and return options",
+        "source": "Deterministic decision tool"
+      }
+    ],
+    "warnings": [],
+    "method": "Support = 1 − position / returned list length, measured within the same bounded candidate pool for every member. Missing evidence is conservatively treated as zero for ranking, not as dislike. Balance weights the lowest support against average support. These relative rank indices are not probabilities, Qloo affinity scores or proof that everyone will enjoy a film. An exclusion starts a new Qloo query; indices across different candidate pools are not directly comparable."
+  }
+}
